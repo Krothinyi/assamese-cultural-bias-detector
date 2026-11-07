@@ -1,5 +1,19 @@
 # Assamese Cultural Bias Detector
 
+### Live Demo
+
+**[Try the Assamese Cultural Bias Detector](https://huggingface.co/spaces/Krothinyi/assamese-cultural-bias-detector)**
+
+An interactive Gradio application powered by
+Qwen2.5-0.5B-Instruct and a fine-tuned V3 LoRA adapter.
+
+Enter an Assamese-related comment to predict:
+- Biased or Non-biased
+- Cultural category: Language, Food, or Appearance
+
+Note: This is a research prototype. Predictions may be incorrect.
+
+
 **A multilingual cultural bias detection system using Qwen2.5-0.5B-Instruct, LoRA fine-tuning, and Gradio.**
 
 This project investigates the identification of cultural bias in social media comments relating to Assamese identity, language, food, and appearance.
