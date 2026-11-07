@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Logs and temporary files
+*.log
+.DS_Store
+.cache/
+
+# Do not publish research datasets
+data_/**
+!data_/qwen_lora_adapter_v3_video_disjoint/
+!data_/qwen_lora_adapter_v3_video_disjoint/**
+
+# Local training outputs
+checkpoints/
+wandb/
+runs/
